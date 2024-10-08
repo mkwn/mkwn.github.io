@@ -28,6 +28,15 @@ hr {height: 1px;border:none;background-color:black;}
 
 <ul>
 
+<li><a href="SAGI.pdf"><cite class=upright>Smoothed Analysis for Graph Isomorphism</cite></a> (with Michael Anastos and Benjamin Moore). To be submitted.<!-- (<a href="http://arxiv.org/abs/????">arXiv</a>).-->
+
+<p>
+There is no known polynomial-time algorithm for graph isomorphism testing, but elementary combinatorial &ldquo;refinement&rdquo; algorithms seem to be very efficient in practice. Some philosophical justification for this situation is provided by a classical theorem of Babai, Erdo&#779;s and Selkow, who showed that the simplest possible refinement-based algorithm is very effective on <em>random</em> graphs: for a uniformly random graph <i>G</i> on <i>n</i> vertices, nai&#776;ve refinement provides a <em>canonical labelling scheme</em> which can be used to distinguish <i>G</i> from all other graphs (with probability tending to 1 as <i>n</i> tends to infinity).</p>
+
+<p>We extend the Babai&ndash;Erdo&#779;s&ndash;Selkow theorem to sparse random graphs (of any density), improving previous results of Bolloba&#x00301;s, Czajka&ndash;Pandurangan and Linial&ndash;Moshieff. We also extend it to the <em>smoothed analysis</em> framework of Spielman and Teng, improving previous results of Gaudio&ndash;Ra&#x00301;cz&ndash;Sridhar. In particular, one of our results is that for any <i>n</i>-vertex graph <i>G</i>, if we perturb  <i>G</i> by adding and removing about <i>n</i> random edges, then refinement-based canonical labelling schemes typically become very efficient.
+</p>
+
+</li>
 
 <li><a href="CPMDH.pdf"><cite class=upright>Counting Perfect Matchings in Dirac Hypergraphs</cite></a> (with Roodabeh Safavi and Yiting Wang). Submitted.<!-- (<a href="http://arxiv.org/abs/2408.09589">arXiv</a>).-->
 
@@ -37,13 +46,6 @@ be the minimum <i>d</i>-degree ensuring the existence of a perfect matching
 in an <i>n</i>-vertex <i>k</i>-uniform hypergraph. Generalising a result of Cuckler and Kahn to the hypergraph setting, we prove that if an <i>n</i>-vertex <i>k</i>-uniform hypergraph <i>G</i> has minimum <i>d</i>-degree at least (1+<i>&epsilon;</i>)&#x202F;<i>m</i><sub><i>d</i></sub>(<i>k</i>,&#x202F;<i>n</i>) (for any constant <i>&epsilon;</i>&nbsp;&ge;&nbsp;0), then the number of perfect matchings in <i>G</i> is controlled by an entropy-like parameter of <i>G</i>.
 </p>
 
-</li>
-
-
-<li><a href="CMKDG.pdf"><cite class=upright>The Cost of Maintaining Keys in Dynamic Groups with Applications to Multicast Encryption and Group Messaging</cite></a> (with Michael Anastos, Benedikt Auerbach, Mirza Ahad Baig, Miguel Cueto Noval, Guillermo Pascual-Perez and Krzysztof Pietrzak). Submitted.<!-- (<a href="https://eprint.iacr.org/2024/1097">ePrint</a>).-->
-
-<p>This paper is a collaboration with a team of cryptographers. We were able to use techniques from extremal combinatorics to study the efficiency of key-sharing schemes (which are used for secure communication between members of a group). I was only really involved in the combinatorics part!
-</p>
 </li>
 
 <li><a href="ESTI.pdf"><cite class=upright>Entangled states are typically incomparable</cite></a> (with Vishesh Jain and Marcus Michelen). Submitted.<!-- (<a href="http://arxiv.org/abs/2406.03335">arXiv</a>).-->
@@ -79,7 +81,13 @@ decoupling scheme</em> that reduces quadratic anticoncentration problems to high
 </p>
 </li>
 
-<li><a href="PPRP.pdf"><cite class=upright>Partitioning problems via random processes</cite></a> (with Michael Anastos, Oliver Cooley and Mihyun Kang). Submitted.<!-- (<a href="http://arxiv.org/abs/2307.06453">arXiv</a>).-->
+<li><a href="ERSRG.pdf"><cite class=upright>The exact rank of sparse random graphs</cite></a> (with Margalit Glasgow, Ashwin Sah and Mehtaab Sawhney). Submitted.<!-- (<a href="http://arxiv.org/abs/2303.05435">arXiv</a>).-->
+
+<p>Very sparse random graphs (and random bipartite graphs) are known to typically be singular (i.e., have singular adjacency matrix), due to the presence of &ldquo;low-degree dependencies&rdquo; such as isolated vertices and pairs of degree-1 vertices with the same neighbourhood. In this paper we give a combinatorial description of the rank of a sparse random graph &#x1D53E;(<i>n</i>,&#x202F;<i>c</i>/<i>n</i>) or &#x1D53E;(<i>n</i>,&#x202F;<i>n</i>,&#x202F;<i>c</i>/<i>n</i>), in terms of such local dependencies, for all constants <i>c</i>&nbsp;&ne;&nbsp;e (and we present some evidence that the situation is very different for <i>c</i>&nbsp;=&nbsp;e). This gives an essentially complete answer to a question of Vu, and has a number of applications including a central limit theorem for the rank of a sparse random graph.
+</p>
+</li>
+
+<li><a href="PPRP.pdf"><cite class=upright>Partitioning problems via random processes</cite></a> (with Michael Anastos, Oliver Cooley and Mihyun Kang). <i>Journal of the London Mathematical Society</i>, to appear.<!-- (<a href="http://arxiv.org/abs/2307.06453">arXiv</a>).-->
 
 <p>There are a number of well-known problems and conjectures about partitioning graphs to satisfy local constraints. For example, the <em>majority colouring conjecture</em> of Kreutzer, Oum, Seymour, van der Zypen and Wood states that every directed graph has a 3-colouring such that for every vertex <i>v</i>, at most half of the out-neighbours of <i>v</i> have the same colour as <i>v</i>. As another example, the <em>internal partition conjecture</em>, due to DeVos and to Ban and Linial, states that for every <i>d</i>, all but finitely many <i>d</i>-regular graphs have a partition into two nonempty parts such that for every vertex <i>v</i>, at least half of the neighbours of <i>v</i> lie in the same part as <i>v</i>. 
 
@@ -87,15 +95,9 @@ We prove several results in this spirit: in particular, two of our results are t
 </p>
 </li>
 
-<li><a href="ERSRG.pdf"><cite class=upright>The exact rank of sparse random graphs</cite></a> (with Margalit Glasgow, Ashwin Sah and Mehtaab Sawhney). Submitted.<!-- (<a href="http://arxiv.org/abs/2303.05435">arXiv</a>).-->
+<li><a href="CMKDG.pdf"><cite class=upright>The Cost of Maintaining Keys in Dynamic Groups with Applications to Multicast Encryption and Group Messaging</cite></a> (with Michael Anastos, Benedikt Auerbach, Mirza Ahad Baig, Miguel Cueto Noval, Guillermo Pascual-Perez and Krzysztof Pietrzak). <i>Proceedings of the Theory of Cryptography Conference (TCC) 2024</i>, to appear.<!-- (<a href="https://eprint.iacr.org/2024/1097">ePrint</a>).-->
 
-<p>Very sparse random graphs (and random bipartite graphs) are known to typically be singular (i.e., have singular adjacency matrix), due to the presence of &ldquo;low-degree dependencies&rdquo; such as isolated vertices and pairs of degree-1 vertices with the same neighbourhood. In this paper we give a combinatorial description of the rank of a sparse random graph &#x1D53E;(<i>n</i>,&#x202F;<i>c</i>/<i>n</i>) or &#x1D53E;(<i>n</i>,&#x202F;<i>n</i>,&#x202F;<i>c</i>/<i>n</i>), in terms of such local dependencies, for all constants <i>c</i>&nbsp;&ne;&nbsp;e (and we present some evidence that the situation is very different for <i>c</i>&nbsp;=&nbsp;e). This gives an essentially complete answer to a question of Vu, and has a number of applications including a central limit theorem for the rank of a sparse random graph.
-</p>
-</li>
-
-<li><a href="IBFT.pdf"><cite class=upright>The inertia bound is far from tight</cite></a> (with Yuval Wigderson). <i>Bulletin of the London Mathematical Society</i>, to appear.<!-- (<a href="http://arxiv.org/abs/2312.04925">arXiv</a>).-->
-
-<p>The <em>inertia bound</em> is a powerful inequality in spectral graph theory, stating that for any graph <i>G</i>, and any weighted adjacency matrix <i>A</i> of <i>G</i>, the independence number of <i>G</i> is at most the number of non-negative eigenvalues of <i>A</i>. In general, it is a highly non-trivial matter to identify the best weighted adjacency matrix with which to apply this bound, and the limits of the inertia bound are therefore rather unclear. In fact, only recently Sinkovic found the first example of a graph for which the inertia bound is not tight. In this paper we obtain some new results showing that the inertia bound can be extremely far from tight.
+<p>This paper is a collaboration with a team of cryptographers. We were able to use techniques from extremal combinatorics to study the efficiency of key-sharing schemes (which are used for secure communication between members of a group). I was only really involved in the combinatorics part!
 </p>
 </li>
 
@@ -109,6 +111,12 @@ For any constant <i>g</i>, we show that for sufficiently large <i>n</i> congruen
 <li><a href="BHSB.pdf"><cite class=upright>Books, hallways and social butterflies: a note on sliding block puzzles</cite></a> (with Florestan Brunck). <i>The Mathematical Intelligencer</i>, to appear.<!-- (<a href="http://arxiv.org/abs/2303.09459">arXiv</a>).-->
 
 <p>Recall the classical &ldquo;15 puzzle&rdquo;, consisting of 15 sliding blocks in a 4&times;4 grid. The configuration space of this puzzle consists of two connected components, corresponding to the odd and even permutations of the symmetric group <i>S</i><sub>15</sub>. Generalising results of Wilson, we study the connectedness of the configuration space of a puzzle consisting of an arbitrary number of sliding blocks on an arbitrary graph.<!-- <b>Note:</b> since making this paper publicly available, we were informed that our main results had already been discovered <a href="http://ieeexplore.ieee.org/document/715921">much earlier</a>. We're still deciding whether to submit it for publication.-->
+</p>
+</li>
+
+<li><a href="IBFT.pdf"><cite class=upright>The inertia bound is far from tight</cite></a> (with Yuval Wigderson). <i>Bulletin of the London Mathematical Society</i> 56.10 (2024), 3196&ndash;3208.<!-- (<a href="http://arxiv.org/abs/2312.04925">arXiv</a>), <a href="https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/blms.13127">journal</a>).-->
+
+<p>The <em>inertia bound</em> is a powerful inequality in spectral graph theory, stating that for any graph <i>G</i>, and any weighted adjacency matrix <i>A</i> of <i>G</i>, the independence number of <i>G</i> is at most the number of non-negative eigenvalues of <i>A</i>. In general, it is a highly non-trivial matter to identify the best weighted adjacency matrix with which to apply this bound, and the limits of the inertia bound are therefore rather unclear. In fact, only recently Sinkovic found the first example of a graph for which the inertia bound is not tight. In this paper we obtain some new results showing that the inertia bound can be extremely far from tight.
 </p>
 </li>
 
