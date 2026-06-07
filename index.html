@@ -10,6 +10,11 @@ body {font-family: Georgia, serif; margin: 0;font-size: 12pt;
 -moz-text-size-adjust: none;
 -ms-text-size-adjust: none;}
 #wrapper{margin:30pt;}
+#portrait {float: right; margin-left: 1em; outline: 1px solid rgba(0,0,0,0.1); outline-offset: -1px;}
+@media (max-width: 600px) {
+#wrapper {margin: 20px;}
+h1 {font-size: 20pt;}
+}
 h2 {font-size: 14pt;}
 address {font-style:normal;}
 cite.upright {font-style:normal;}
@@ -23,9 +28,8 @@ hr {height: 1px;border:none;background-color:black;}
 
 </style>
 </head>
-<body style="min-width:450px;"><div id="wrapper">
-<img src="me.jpg" style="float:right; margin-right:1em;outline: 1px solid rgba(0,0,0,0.1);
-  outline-offset: -1px;" alt="photo of me" width="139" height="185">
+<body><div id="wrapper">
+<img src="me.jpg" id="portrait" alt="photo of me" width="139" height="185">
 <h1 style="margin:0">Matthew Kwan</h1>
 <address id="email">
 <noscript>matthew.kwan at ist.ac.at</noscript>
