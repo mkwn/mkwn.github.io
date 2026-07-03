@@ -34,6 +34,8 @@ hr {height: 1px;border:none;background-color:black;}
 How many points can be placed in an <i>n</i>&times;<i>n</i> grid so that every (affine) line contains at most <i>k</i> points? For <i>k</i>&nbsp;=&nbsp;2 this is the infamous &ldquo;no-3-in-line&rdquo; problem of Dudeney. In this paper, we resolve this problem for all other <i>k</i> (and sufficiently large <i>n</i>). Namely, for <i>k</i>&nbsp;&#x02a7e;&nbsp;3 and sufficiently large <i>n</i>, we show that this maximum is exactly <i>kn</i>. To prove this, our key observation is that in the regime <i>k</i> &#x02a7e; 3, the problem is dominated (in a certain statistical sense) by the influence of a small number of &ldquo;heavy&rdquo; lines with many grid points. We also use similar methods to obtain new bounds on the related &ldquo;no-four-on-a-circle&rdquo; problem of Erd&#x151;s and Purdy.
 </p>
 
+<p>The paper refers to some experimental data on the no-four-in-a-circle problem (obtained using <em>AlphaEvolve</em>), which can be downloaded via <a href="NP_data.pdf">this PDF file</a> or <a href="NP_data.json">this JSON file</a>.</p>
+
 </li>
 
 <li><a href="PRMFF.pdf"><cite class=upright>Permanents of random matrices over finite fields</cite></a> (with Zach Hunter and Lisa Sauermann). Submitted.<!-- (<a href="http://arxiv.org/abs/2603.15856">arXiv</a>).-->
@@ -47,6 +49,8 @@ How many points can be placed in an <i>n</i>&times;<i>n</i> grid so that every (
 
 <p>For integers <i>k</i>, <i>l</i> with 0&nbsp;&#x2A7D;&nbsp;<i>l</i>&nbsp;&#x2A7D;&nbsp;<span style="white-space: nowrap"><span class="tall">(</span><span class="binom"><span class="top"><i>k</i></span><span class="fallback"> choose </span><span class="bottom">2</span></span><span class="tall">)</span></span>, let ind(<i>k</i>,<i>l</i>) be the maximum proportion of <i>k</i>-vertex subsets of a large graph that induce exactly <i>l</i> edges. The <em>edge-statistics theorem</em> asserts that ind(<i>k</i>,<i>l</i>)&nbsp;&#x2A7D;&nbsp;<span style="white-space: nowrap">1/<i>e</i></span> + <i>o</i>(1) for <i>k</i>&nbsp;&rarr;&nbsp;&infin; and 0&nbsp;&lt;&nbsp;<i>l</i>&nbsp;&lt;&nbsp;<span style="white-space: nowrap"><span class="tall">(</span><span class="binom"><span class="top"><i>k</i></span><span class="fallback"> choose </span><span class="bottom">2</span></span><span class="tall">)</span></span>. We investigate the &ldquo;stability&rdquo; of this theorem in a few different ways. In particular, the edge-statistics theorem is tight for four specific values of <i>l</i>; one of our main theorems is that the constant <span style="white-space: nowrap">&ldquo;1/<i>e</i>&rdquo;</span> can be improved for all other <i>l</i>.
 </p>
+
+<p>One part of the paper is computer assisted; here is an accompanying <a href="ESB_calc.cpp">C++ program</a>.</p>
 </li>
 
 <li><a href="NPLC.pdf"><cite class=upright>No-(<i>k</i>+1)-in-line problem for large constant <i>k</i></cite></a> (with Alex Grebennikov). Submitted.<!-- (<a href="http://arxiv.org/abs/???">arXiv</a>).-->
@@ -130,7 +134,7 @@ There is no known polynomial-time algorithm for graph isomorphism testing, but e
 <li><a href="ESTI.pdf"><cite class=upright>Entangled states are typically incomparable</cite></a> (with Vishesh Jain and Marcus Michelen). <i>Communications in Mathematical Physics</i>, to appear.<!-- (<a href="http://arxiv.org/abs/2406.03335">arXiv</a>).-->
 
 <p>
-Consider a bipartite quantum system, where Alice and Bob jointly possess a pure state |<i>&psi;</i>&rang;. Using local quantum operations on their respective subsystems, and classical communication, Alice and Bob may be able to transform |<i>&psi;</i>&rang; into another state |<i>&phi;</i>&rang;. In this paper we prove a conjecture of Nielsen, that in the limit of large dimensionality, for <em>almost all</em> pairs of states |<i>&psi;</i>&rang;, |<i>&phi;</i>&rang; (according to the natural unitary invariant measure) such a transformation is not possible. That is to say, typical pairs of quantum states are entangled in fundamentally different ways, that cannot be locally converted to each other. This turns out to be equivalent to a statement about majorisation of spectra of certain random matrices.
+Consider a bipartite quantum system, where Alice and Bob jointly possess a pure state |<i>&psi;</i>&#x27e9;. Using local quantum operations on their respective subsystems, and classical communication, Alice and Bob may be able to transform |<i>&psi;</i>&#x27e9; into another state |<i>&phi;</i>&#x27e9;. In this paper we prove a conjecture of Nielsen, that in the limit of large dimensionality, for <em>almost all</em> pairs of states |<i>&psi;</i>&#x27e9;, |<i>&phi;</i>&#x27e9; (according to the natural unitary invariant measure) such a transformation is not possible. That is to say, typical pairs of quantum states are entangled in fundamentally different ways, that cannot be locally converted to each other. This turns out to be equivalent to a statement about majorisation of spectra of certain random matrices.
 </p>
 </li>
 
@@ -489,7 +493,7 @@ much larger than <span style="white-space: nowrap">1/<i>n</i></span> then it mus
 
 <li><a href="ANSTSGGD.pdf"><cite class=upright>The average number of spanning trees in sparse graphs with given degrees</cite></a> (with Catherine Greenhill, Mikhail Isaev and Brendan McKay). <i>European Journal of Combinatorics</i> 63 (2017), 6&ndash;25.<!-- (<a href="https://arxiv.org/abs/1606.01586">arXiv</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0195669817300100">journal</a>).-->
 
-<p>We find the asymptotic expected number of spanning trees in a random graph conditioned on a fixed "sparse" degree sequence. In particular this gives the expected number of spanning trees in a random <i>d</i>-regular graph on <i>n</i> vertices, where <i>d</i> can grow modestly with <i>n</i>. An interesting part of the proof is a concentration result proved using a martingale based on the Pru&#x00308;fer code algorithm.</p>
+<p>We find the asymptotic expected number of spanning trees in a random graph conditioned on a fixed "sparse" degree sequence. In particular this gives the expected number of spanning trees in a random <i>d</i>-regular graph on <i>n</i> vertices, where <i>d</i> can grow modestly with <i>n</i>. An interesting part of the proof is a concentration result proved using a martingale based on the Pr&uuml;fer code algorithm.</p>
 </li>
 
 <li><a href="BDSTRPG.pdf"><cite class=upright>Bounded-degree spanning trees in randomly perturbed graphs</cite></a> (with Michael Krivelevich and Benny Sudakov). <i>SIAM Journal on Discrete Mathematics</i> 31.1 (2017), 155&ndash;171.<!-- (<a href="https://arxiv.org/abs/1507.07960">arXiv</a>, <a href="https://epubs.siam.org/doi/abs/10.1137/15M1032910">journal</a>).-->
