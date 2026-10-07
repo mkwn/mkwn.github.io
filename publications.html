@@ -28,7 +28,18 @@ hr {height: 1px;border:none;background-color:black;}
 
 <ul>
 
-<li><a href="NP.pdf"><cite class=upright>No-(<i>k</i>+1)-in-line problem for <i>k</i>&nbsp;&#x02a7e;&nbsp;3</cite></a> (with Anubhab Ghosal, Ritesh Goenka, Alex Grebennikov, Peter Keevash and Huy Pham). Submitted.<!-- (<a href="http://arxiv.org/abs/????">arXiv</a>).-->
+<li><a href="NLLDC.pdf"><cite class=upright>Nonlinear lower-tail large deviations at criticality</cite></a> (with Huy Pham). Submitted.<!-- (<a href="http://arxiv.org/abs/????">arXiv</a>).-->
+
+<p>
+We introduce some general methods to derive lower tail large deviation principles, for a variety of nonlinear problems of combinatorial interest. These methods are especially effective in &ldquo;critical&rdquo; regimes, where the nonlinearities are not sparse enough for Poissonian lower tails (e.g., Janson's inequality does not provide a sharp tail bound), but the situation is not so dense that combinatorial effects dominate (e.g., we cannot directly apply the theory of hypergraph containers or the relative entropy framework of Kozma&ndash;Samotij). 
+</p>
+<p>
+These methods have many applications to subgraphs in random graphs. For example, consider the probability <i>P</i><sub>&#9653;</sub>(<i>n</i>,&#x202F;<span style="white-space: nowrap"><i>p</i></span>) that a random graph &#x1D53E;(<i>n</i>,&#x202F;<span style="white-space: nowrap"><i>p</i></span>) is triangle-free. The first-order asymptotics of log <i>P</i><sub>&#9653;</sub>(<i>n</i>,&#x202F;<span style="white-space: nowrap"><i>p</i></span>) are well-known, except in the critical regime where <i>p</i> has order of magnitude <i>n</i><sup>&minus;1/2</sup>. We are able to fill this gap: for any fixed <i>c</i>&nbsp;&gt;&nbsp;0, we show that <i>n</i><sup>3/2</sup>&nbsp;log <i>P</i><sub>&#9653;</sub>(<i>n</i>,&#x202F;<span style="white-space: nowrap"><i>c</i><i>n</i><sup>&minus;1/2</sup></span>) converges to a limit expressed in terms of a two-parameter variational problem, which has a single phase transition at <i>c</i>&nbsp;&asymp;&nbsp;4.341 (as conjectured by Jenssen&ndash;Perkins&ndash;Potukuchi&ndash;Simkin). We also have some applications in design theory: we obtain new estimates on the number of order-<i>n</i> Steiner triple systems with no Pasch configuration  and the number of order-<i>n</i> Latin squares with no 2&times;2 Latin subsquare, both tight up to a factor of exp(<i>o</i>(<i>n</i><sup>2</sup>)).
+</p>
+
+</li>
+
+<li><a href="NP.pdf"><cite class=upright>No-(<i>k</i>+1)-in-line problem for <i>k</i>&nbsp;&#x02a7e;&nbsp;3</cite></a> (with Anubhab Ghosal, Ritesh Goenka, Alex Grebennikov, Peter Keevash and Huy Pham). Submitted.<!-- (<a href="http://arxiv.org/abs/2607.05255">arXiv</a>).-->
 
 <p>
 How many points can be placed in an <i>n</i>&times;<i>n</i> grid so that every (affine) line contains at most <i>k</i> points? For <i>k</i>&nbsp;=&nbsp;2 this is the infamous &ldquo;no-3-in-line&rdquo; problem of Dudeney. In this paper, we resolve this problem for all other <i>k</i> (and sufficiently large <i>n</i>). Namely, for <i>k</i>&nbsp;&#x02a7e;&nbsp;3 and sufficiently large <i>n</i>, we show that this maximum is exactly <i>kn</i>. To prove this, our key observation is that in the regime <i>k</i> &#x02a7e; 3, the problem is dominated (in a certain statistical sense) by the influence of a small number of &ldquo;heavy&rdquo; lines with many grid points. We also use similar methods to obtain new bounds on the related &ldquo;no-four-on-a-circle&rdquo; problem of Erd&#x151;s and Purdy.
@@ -51,14 +62,6 @@ How many points can be placed in an <i>n</i>&times;<i>n</i> grid so that every (
 </p>
 
 <p>One part of the paper is computer assisted; here is an accompanying <a href="ESB_calc.cpp">C++ program</a>.</p>
-</li>
-
-<li><a href="NPLC.pdf"><cite class=upright>No-(<i>k</i>+1)-in-line problem for large constant <i>k</i></cite></a> (with Alex Grebennikov). Submitted.<!-- (<a href="http://arxiv.org/abs/???">arXiv</a>).-->
-
-<p>
-How many points can be placed in an <i>n</i>&times;<i>n</i> grid so that every (affine) line contains at most <i>k</i> points? We prove that for <i>n</i> &gt; <i>k</i> &gt; 10<sup>37</sup> the maximum number of points is exactly <i>kn</i>.
-</p>
-
 </li>
 
 <li><a href="EAP.pdf"><cite class=upright>Exponential anticoncentration for the permanent</cite></a> (with Zach Hunter and Lisa Sauermann). Submitted.<!-- (<a href="http://arxiv.org/abs/2509.22577">arXiv</a>).-->
@@ -131,14 +134,8 @@ There is no known polynomial-time algorithm for graph isomorphism testing, but e
 </p>
 </li>
 
-<li><a href="ESTI.pdf"><cite class=upright>Entangled states are typically incomparable</cite></a> (with Vishesh Jain and Marcus Michelen). <i>Communications in Mathematical Physics</i>, to appear.<!-- (<a href="http://arxiv.org/abs/2406.03335">arXiv</a>).-->
 
-<p>
-Consider a bipartite quantum system, where Alice and Bob jointly possess a pure state |<i>&psi;</i>&#x27e9;. Using local quantum operations on their respective subsystems, and classical communication, Alice and Bob may be able to transform |<i>&psi;</i>&#x27e9; into another state |<i>&phi;</i>&#x27e9;. In this paper we prove a conjecture of Nielsen, that in the limit of large dimensionality, for <em>almost all</em> pairs of states |<i>&psi;</i>&#x27e9;, |<i>&phi;</i>&#x27e9; (according to the natural unitary invariant measure) such a transformation is not possible. That is to say, typical pairs of quantum states are entangled in fundamentally different ways, that cannot be locally converted to each other. This turns out to be equivalent to a statement about majorisation of spectra of certain random matrices.
-</p>
-</li>
-
-<li><a href="RMLC.pdf"><cite class=upright>On random matrices with large corank</cite></a> (with Zach Hunter, Lisa Sauermann and Mehtaab Sawhney). <i>International Mathematics Research Notices</i>, to appear.<!-- (<a href="http://arxiv.org/abs/2510.12933">arXiv</a>).-->
+<li><a href="RMLC.pdf"><cite class=upright>On random matrices with large corank</cite></a> (with Zach Hunter, Lisa Sauermann and Mehtaab Sawhney). <i>International Mathematics Research Notices</i> 2026.12 (2026).<!-- (<a href="http://arxiv.org/abs/2510.12933">arXiv</a>).-->
 
 <p>
 Let <i>M</i> be a uniformly random <i>n</i>&times;<i>n</i> matrix
@@ -147,13 +144,26 @@ with &plusmn;1 entries. We prove a large deviation inequality for the rank of <i
 
 </li>
 
-
 <li><a href="ERSRG.pdf"><cite class=upright>The exact rank of sparse random graphs</cite></a> (with Margalit Glasgow, Ashwin Sah and Mehtaab Sawhney). <i>Journal of the European Mathematics Society</i>, to appear.<!-- (<a href="http://arxiv.org/abs/2303.05435">arXiv</a>).-->
 
 <p>Very sparse random graphs (and random bipartite graphs) are known to typically be singular (i.e., have singular adjacency matrix), due to the presence of &ldquo;low-degree dependencies&rdquo; such as isolated vertices and pairs of degree-1 vertices with the same neighbourhood. In this paper we give a combinatorial description of the rank of a sparse random graph &#x1D53E;(<i>n</i>,&#x202F;<span style="white-space: nowrap"><i>c</i>/<i>n</i></span>) or &#x1D53E;(<i>n</i>,&#x202F;<i>n</i>,&#x202F;<span style="white-space: nowrap"><i>c</i>/<i>n</i></span>), in terms of such local dependencies, for all constants <i>c</i>&nbsp;&ne;&nbsp;e (and we present some evidence that the situation is very different for <i>c</i>&nbsp;=&nbsp;e). This gives an essentially complete answer to a question of Vu, and has a number of applications including a central limit theorem for the rank of a sparse random graph.
 </p>
 </li>
 
+<li><a href="NPLC.pdf"><cite class=upright>No-(<i>k</i>+1)-in-line problem for large constant <i>k</i></cite></a> (with Alex Grebennikov). <i>Bulletin of the London Mathematical Society</i> 58.10 (2026).<!-- (<a href="http://arxiv.org/abs/2510.17743">arXiv</a>), <a href="https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/blms.70510">journal</a>).-->
+
+<p>
+How many points can be placed in an <i>n</i>&times;<i>n</i> grid so that every (affine) line contains at most <i>k</i> points? We prove that for <i>n</i> &gt; <i>k</i> &gt; 10<sup>37</sup> the maximum number of points is exactly <i>kn</i>.
+</p>
+
+</li>
+
+<li><a href="ESTI.pdf"><cite class=upright>Entangled states are typically incomparable</cite></a> (with Vishesh Jain and Marcus Michelen). <i>Communications in Mathematical Physics</i> 407.214 (2026).<!-- (<a href="http://arxiv.org/abs/2406.03335">arXiv</a>), <a href="https://link.springer.com/article/10.1007/s00220-026-05711-4">journal</a>).-->
+
+<p>
+Consider a bipartite quantum system, where Alice and Bob jointly possess a pure state |<i>&psi;</i>&#x27e9;. Using local quantum operations on their respective subsystems, and classical communication, Alice and Bob may be able to transform |<i>&psi;</i>&#x27e9; into another state |<i>&phi;</i>&#x27e9;. In this paper we prove a conjecture of Nielsen, that in the limit of large dimensionality, for <em>almost all</em> pairs of states |<i>&psi;</i>&#x27e9;, |<i>&phi;</i>&#x27e9; (according to the natural unitary invariant measure) such a transformation is not possible. That is to say, typical pairs of quantum states are entangled in fundamentally different ways, that cannot be locally converted to each other. This turns out to be equivalent to a statement about majorisation of spectra of certain random matrices.
+</p>
+</li>
 
 <li><a href="CPMDH.pdf"><cite class=upright>Counting Perfect Matchings in Dirac Hypergraphs</cite></a> (with Roodabeh Safavi and Yiting Wang). <i>Combinatorica</i> 46.1 (2026).<!-- (<a href="http://arxiv.org/abs/2408.09589">arXiv</a>), <a href="https://link.springer.com/article/10.1007/s00493-025-00194-8">journal</a>).-->
 
